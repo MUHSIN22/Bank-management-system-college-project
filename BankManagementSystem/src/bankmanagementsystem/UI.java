@@ -133,7 +133,8 @@ public class UI extends javax.swing.JFrame {
     }//GEN-LAST:event_nameFieldActionPerformed
 
     private void loginBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginBtnActionPerformed
-         JOptionPane.showConfirmDialog(null, "wht?");
+         DepWitForm ob = new DepWitForm();
+         ob.setVisible(true);
     }//GEN-LAST:event_loginBtnActionPerformed
 
     private void signupBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signupBtnActionPerformed
